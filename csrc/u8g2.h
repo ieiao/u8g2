@@ -543,6 +543,7 @@ uint8_t *u8g2_m_24_4_f(uint8_t *page_cnt);
 uint8_t *u8g2_m_50_30_1(uint8_t *page_cnt);
 uint8_t *u8g2_m_50_30_2(uint8_t *page_cnt);
 uint8_t *u8g2_m_50_30_f(uint8_t *page_cnt);
+uint8_t *u8g2_m_50_38_f(uint8_t *page_cnt);
 uint8_t *u8g2_m_18_21_1(uint8_t *page_cnt);
 uint8_t *u8g2_m_18_21_2(uint8_t *page_cnt);
 uint8_t *u8g2_m_18_21_f(uint8_t *page_cnt);
@@ -1478,6 +1479,7 @@ void u8g2_Setup_ssd1607_ws_200x200_2(u8g2_t *u8g2, const u8g2_cb_t *rotation, u8
 void u8g2_Setup_ssd1607_200x200_f(u8g2_t *u8g2, const u8g2_cb_t *rotation, u8x8_msg_cb byte_cb, u8x8_msg_cb gpio_and_delay_cb);
 void u8g2_Setup_ssd1607_gd_200x200_f(u8g2_t *u8g2, const u8g2_cb_t *rotation, u8x8_msg_cb byte_cb, u8x8_msg_cb gpio_and_delay_cb);
 void u8g2_Setup_ssd1607_ws_200x200_f(u8g2_t *u8g2, const u8g2_cb_t *rotation, u8x8_msg_cb byte_cb, u8x8_msg_cb gpio_and_delay_cb);
+void u8g2_Setup_ssd1608_400x300_f(u8g2_t *u8g2, const u8g2_cb_t *rotation, u8x8_msg_cb byte_cb, u8x8_msg_cb gpio_and_delay_cb);
 void u8g2_Setup_il3820_296x128_1(u8g2_t *u8g2, const u8g2_cb_t *rotation, u8x8_msg_cb byte_cb, u8x8_msg_cb gpio_and_delay_cb);
 void u8g2_Setup_il3820_v2_296x128_1(u8g2_t *u8g2, const u8g2_cb_t *rotation, u8x8_msg_cb byte_cb, u8x8_msg_cb gpio_and_delay_cb);
 void u8g2_Setup_il3820_296x128_2(u8g2_t *u8g2, const u8g2_cb_t *rotation, u8x8_msg_cb byte_cb, u8x8_msg_cb gpio_and_delay_cb);
